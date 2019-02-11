@@ -1,7 +1,6 @@
 from flask import Flask, render_template
 from flask import request
-from main import DB
-from main import use_total,total
+from main import use_total, total, DB
 app = Flask(__name__)
 app.config.from_pyfile('settings.py')
 
