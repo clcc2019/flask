@@ -1,0 +1,786 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Feb  8 18:34:06 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 31 January 2019 10:49:51
+os: Linux-4.20.4-1.el7.elrepo.x86_64 #1 SMP Tue Jan 22 18:39:11 EST 2019
+nodename: cc
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/web
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7883
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/webapp.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan 13 2019, 18:54:12)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x117d700
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+mounting webapp:app on /home/web
+WSGI app 0 (mountpoint='/home/web') ready in 0 seconds on interpreter 0x117d700 pid: 10490 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 10490, cores: 1)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Feb  8 18:34:10 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 31 January 2019 10:49:51
+os: Linux-4.20.4-1.el7.elrepo.x86_64 #1 SMP Tue Jan 22 18:39:11 EST 2019
+nodename: cc
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/web
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7883
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/webapp.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan 13 2019, 18:54:12)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x18cb700
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+mounting webapp:app on /home/web
+WSGI app 0 (mountpoint='/home/web') ready in 0 seconds on interpreter 0x18cb700 pid: 10493 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 10493, cores: 1)
+链接成功
+记录成功！
+[pid: 10493|app: 0|req: 1/1] 119.84.153.253 () {44 vars in 745 bytes} [Fri Feb  8 18:42:57 2019] GET / => generated 662 bytes in 3601 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+链接成功
+查询成功
+[pid: 10493|app: 0|req: 2/2] 119.84.153.253 () {46 vars in 765 bytes} [Fri Feb  8 18:43:03 2019] GET /history => generated 1083 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+链接成功
+查询成功
+[pid: 10493|app: 0|req: 3/3] 119.84.153.253 () {48 vars in 796 bytes} [Fri Feb  8 18:43:13 2019] GET /history => generated 1083 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+链接成功
+查询成功
+[pid: 10493|app: 0|req: 4/4] 119.84.153.253 () {48 vars in 796 bytes} [Fri Feb  8 18:44:05 2019] GET /history => generated 1083 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+链接成功
+查询成功
+[pid: 10493|app: 0|req: 5/5] 119.84.153.253 () {48 vars in 796 bytes} [Fri Feb  8 18:44:07 2019] GET /history => generated 1083 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Feb  8 18:44:14 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 31 January 2019 10:49:51
+os: Linux-4.20.4-1.el7.elrepo.x86_64 #1 SMP Tue Jan 22 18:39:11 EST 2019
+nodename: cc
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/web
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7883
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/webapp.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan 13 2019, 18:54:12)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1d99700
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+mounting webapp:app on /home/web
+WSGI app 0 (mountpoint='/home/web') ready in 0 seconds on interpreter 0x1d99700 pid: 10506 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 10506, cores: 1)
+链接成功
+查询成功
+[pid: 10506|app: 0|req: 1/1] 119.84.153.253 () {48 vars in 796 bytes} [Fri Feb  8 18:44:23 2019] GET /history => generated 1089 bytes in 14 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+链接成功
+记录失败！
+Fri Feb  8 18:53:55 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 202.173.11.248) !!!
+Fri Feb  8 18:53:55 2019 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (202.173.11.248)
+OSError: write error
+[pid: 10506|app: 0|req: 2/2] 202.173.11.248 () {46 vars in 726 bytes} [Fri Feb  8 18:53:52 2019] GET / => generated 0 bytes in 3778 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+链接成功
+查询成功
+[pid: 10506|app: 0|req: 3/3] 119.84.153.253 () {48 vars in 796 bytes} [Fri Feb  8 18:55:15 2019] GET /history => generated 1089 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+链接成功
+查询成功
+[pid: 10506|app: 0|req: 4/4] 119.84.153.253 () {48 vars in 796 bytes} [Fri Feb  8 18:55:18 2019] GET /history => generated 1089 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+链接成功
+查询成功
+[pid: 10506|app: 0|req: 5/5] 119.84.153.253 () {46 vars in 765 bytes} [Fri Feb  8 18:55:22 2019] GET /history => generated 1089 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+链接成功
+查询成功
+[pid: 10506|app: 0|req: 6/6] 119.84.153.253 () {48 vars in 796 bytes} [Fri Feb  8 18:55:24 2019] GET /history => generated 1089 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Feb  8 18:55:31 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 31 January 2019 10:49:51
+os: Linux-4.20.4-1.el7.elrepo.x86_64 #1 SMP Tue Jan 22 18:39:11 EST 2019
+nodename: cc
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/web
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7883
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/webapp.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan 13 2019, 18:54:12)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1633700
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+mounting webapp:app on /home/web
+WSGI app 0 (mountpoint='/home/web') ready in 0 seconds on interpreter 0x1633700 pid: 10524 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 10524, cores: 1)
+链接成功
+查询成功
+[pid: 10524|app: 0|req: 1/1] 119.84.153.253 () {48 vars in 796 bytes} [Fri Feb  8 18:55:43 2019] GET /history => generated 1089 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+链接成功
+查询成功
+[pid: 10524|app: 0|req: 2/2] 119.84.153.253 () {48 vars in 796 bytes} [Fri Feb  8 18:55:49 2019] GET /history => generated 1089 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+链接成功
+记录失败！
+[pid: 10524|app: 0|req: 3/3] 119.84.153.253 () {44 vars in 745 bytes} [Fri Feb  8 18:55:55 2019] GET / => generated 662 bytes in 2362 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+链接成功
+查询成功
+[pid: 10524|app: 0|req: 4/4] 119.84.153.253 () {46 vars in 765 bytes} [Fri Feb  8 18:56:02 2019] GET /history => generated 1089 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+链接成功
+查询成功
+[pid: 10524|app: 0|req: 5/5] 119.84.153.253 () {48 vars in 796 bytes} [Fri Feb  8 18:56:04 2019] GET /history => generated 1089 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+链接成功
+查询成功
+[pid: 10524|app: 0|req: 6/6] 119.84.153.253 () {48 vars in 796 bytes} [Fri Feb  8 18:57:48 2019] GET /history => generated 1089 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+链接成功
+记录成功！
+[pid: 10524|app: 0|req: 7/7] 211.103.82.179 () {48 vars in 995 bytes} [Fri Feb  8 19:16:33 2019] GET / => generated 662 bytes in 4110 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 10524|app: 0|req: 8/8] 211.103.82.179 () {52 vars in 1064 bytes} [Fri Feb  8 19:16:37 2019] GET /static/style.css => generated 1244 bytes in 5 msecs via sendfile() (HTTP/1.1 200) 8 headers in 307 bytes (0 switches on core 0)
+[pid: 10524|app: 0|req: 9/9] 119.84.153.253 () {44 vars in 777 bytes} [Fri Feb  8 19:16:38 2019] GET /favicon.ico => generated 233 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+链接成功
+查询成功
+[pid: 10524|app: 0|req: 10/10] 119.84.153.253 () {48 vars in 963 bytes} [Fri Feb  8 19:16:52 2019] GET /history => generated 1216 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 10524|app: 0|req: 11/11] 119.84.153.253 () {44 vars in 749 bytes} [Fri Feb  8 19:16:52 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+链接成功
+查询成功
+[pid: 10524|app: 0|req: 12/12] 119.84.153.253 () {50 vars in 994 bytes} [Fri Feb  8 19:16:55 2019] GET /history => generated 1216 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+链接成功
+查询成功
+[pid: 10524|app: 0|req: 13/13] 119.84.153.253 () {50 vars in 994 bytes} [Fri Feb  8 19:16:58 2019] GET /history => generated 1216 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Feb  8 19:39:16 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 31 January 2019 10:49:51
+os: Linux-4.20.4-1.el7.elrepo.x86_64 #1 SMP Tue Jan 22 18:39:11 EST 2019
+nodename: cc
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/web
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7883
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/webapp.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan 13 2019, 18:54:12)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2993700
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+mounting webapp:app on /home/web
+WSGI app 0 (mountpoint='/home/web') ready in 0 seconds on interpreter 0x2993700 pid: 10656 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 10656, cores: 1)
+记录失败！
+[pid: 10656|app: 0|req: 1/1] 119.84.153.253 () {42 vars in 714 bytes} [Fri Feb  8 19:39:32 2019] GET / => generated 662 bytes in 4719 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 10656|app: 0|req: 2/2] 119.84.153.253 () {46 vars in 799 bytes} [Fri Feb  8 19:39:54 2019] GET /history => generated 1216 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 10656|app: 0|req: 3/3] 119.84.153.253 () {46 vars in 799 bytes} [Fri Feb  8 19:40:12 2019] GET /history => generated 1216 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 10656|app: 0|req: 4/4] 119.84.153.253 () {46 vars in 799 bytes} [Fri Feb  8 19:40:17 2019] GET /history => generated 1216 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+[pid: 10656|app: 0|req: 5/5] 119.84.153.253 () {44 vars in 779 bytes} [Fri Feb  8 19:46:38 2019] GET / => generated 662 bytes in 4051 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 10656|app: 0|req: 6/6] 119.84.153.253 () {46 vars in 765 bytes} [Fri Feb  8 19:46:45 2019] GET /history => generated 1216 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Feb  8 19:49:39 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 31 January 2019 10:49:51
+os: Linux-4.20.4-1.el7.elrepo.x86_64 #1 SMP Tue Jan 22 18:39:11 EST 2019
+nodename: cc
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/web
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7883
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/webapp.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan 13 2019, 18:54:12)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1026700
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+mounting webapp:app on /home/web
+WSGI app 0 (mountpoint='/home/web') ready in 0 seconds on interpreter 0x1026700 pid: 10669 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 10669, cores: 1)
+[pid: 10669|app: 0|req: 1/1] 119.84.153.253 () {48 vars in 796 bytes} [Fri Feb  8 19:49:50 2019] GET /history => generated 1232 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Feb  8 19:59:45 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 31 January 2019 10:49:51
+os: Linux-4.20.4-1.el7.elrepo.x86_64 #1 SMP Tue Jan 22 18:39:11 EST 2019
+nodename: cc
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/web
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7883
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/webapp.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan 13 2019, 18:54:12)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x289d700
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+mounting webapp:app on /home/web
+WSGI app 0 (mountpoint='/home/web') ready in 1 seconds on interpreter 0x289d700 pid: 10682 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 10682, cores: 1)
+[pid: 10682|app: 0|req: 1/1] 119.84.153.253 () {48 vars in 796 bytes} [Fri Feb  8 19:59:53 2019] GET /history => generated 1371 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+[pid: 10682|app: 0|req: 2/2] 119.84.153.253 () {44 vars in 912 bytes} [Fri Feb  8 20:05:55 2019] GET / => generated 662 bytes in 4577 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 3/3] 119.84.153.253 () {44 vars in 777 bytes} [Fri Feb  8 20:06:00 2019] GET /favicon.ico => generated 233 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 4/4] 119.84.153.253 () {48 vars in 963 bytes} [Fri Feb  8 20:06:01 2019] GET /history => generated 1371 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 5/5] 119.84.153.253 () {44 vars in 749 bytes} [Fri Feb  8 20:06:02 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 6/6] 119.84.153.253 () {50 vars in 994 bytes} [Fri Feb  8 20:06:04 2019] GET /history => generated 1371 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 7/7] 119.84.153.253 () {50 vars in 994 bytes} [Fri Feb  8 20:06:07 2019] GET /history => generated 1371 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+[pid: 10682|app: 0|req: 8/8] 119.84.153.253 () {46 vars in 943 bytes} [Fri Feb  8 20:06:10 2019] GET / => generated 662 bytes in 2802 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 9/9] 119.84.153.253 () {48 vars in 963 bytes} [Fri Feb  8 20:06:15 2019] GET /history => generated 1371 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 10/10] 119.84.153.253 () {48 vars in 963 bytes} [Fri Feb  8 20:06:28 2019] GET /history => generated 1371 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+[pid: 10682|app: 0|req: 11/11] 119.84.153.253 () {46 vars in 943 bytes} [Fri Feb  8 20:06:32 2019] GET / => generated 662 bytes in 2455 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 12/12] 119.84.153.253 () {48 vars in 963 bytes} [Fri Feb  8 20:06:38 2019] GET /history => generated 1371 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 13/13] 119.84.153.253 () {50 vars in 994 bytes} [Fri Feb  8 20:06:40 2019] GET /history => generated 1371 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 14/14] 185.121.102.200 () {30 vars in 319 bytes} [Fri Feb  8 21:28:40 2019] GET /v1/agent/self => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 15/15] 14.215.160.199 () {48 vars in 995 bytes} [Fri Feb  8 21:42:06 2019] GET / => generated 662 bytes in 4693 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 16/16] 14.215.160.199 () {52 vars in 1064 bytes} [Fri Feb  8 21:42:10 2019] GET /static/style.css => generated 1242 bytes in 5 msecs via sendfile() (HTTP/1.1 200) 8 headers in 306 bytes (0 switches on core 0)
+[pid: 10682|app: 0|req: 17/17] 119.84.153.253 () {44 vars in 777 bytes} [Fri Feb  8 21:42:11 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 18/18] 119.84.153.253 () {48 vars in 963 bytes} [Fri Feb  8 21:42:13 2019] GET /history => generated 1564 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 19/19] 119.84.153.253 () {44 vars in 749 bytes} [Fri Feb  8 21:42:14 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 20/20] 119.84.153.253 () {50 vars in 994 bytes} [Fri Feb  8 21:42:19 2019] GET /history => generated 1564 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 21/21] 5.202.145.30 () {32 vars in 450 bytes} [Fri Feb  8 22:32:00 2019] GET / => generated 662 bytes in 4250 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+记录失败！
+[pid: 10682|app: 0|req: 22/22] 119.84.153.253 () {44 vars in 912 bytes} [Fri Feb  8 22:42:07 2019] GET / => generated 662 bytes in 3513 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 23/23] 119.84.153.253 () {44 vars in 777 bytes} [Fri Feb  8 22:42:11 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 24/24] 119.84.153.253 () {48 vars in 963 bytes} [Fri Feb  8 22:42:14 2019] GET /history => generated 1757 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 25/25] 119.84.153.253 () {44 vars in 749 bytes} [Fri Feb  8 22:42:14 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 26/26] 80.82.70.187 () {34 vars in 421 bytes} [Fri Feb  8 22:53:05 2019] GET /cache/global/img/gs.gif => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 27/27] 58.48.129.32 () {38 vars in 480 bytes} [Fri Feb  8 22:53:35 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 28/28] 1.30.29.164 () {38 vars in 497 bytes} [Fri Feb  8 22:53:35 2019] GET /view/img/favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 29/29] 175.152.29.228 () {38 vars in 527 bytes} [Fri Feb  8 22:53:55 2019] GET /3/favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 30/30] 182.200.6.153 () {36 vars in 470 bytes} [Fri Feb  8 22:53:55 2019] GET / => generated 662 bytes in 4620 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+记录失败！
+[pid: 10682|app: 0|req: 31/31] 121.57.227.173 () {36 vars in 510 bytes} [Fri Feb  8 22:54:00 2019] GET /?id=1 => generated 662 bytes in 4020 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+记录失败！
+Fri Feb  8 23:26:00 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 110.16.0.184) !!!
+Fri Feb  8 23:26:00 2019 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during HEAD / (110.16.0.184)
+[pid: 10682|app: 0|req: 32/32] 110.16.0.184 () {36 vars in 395 bytes} [Fri Feb  8 23:25:56 2019] HEAD / => generated 0 bytes in 3811 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+记录失败！
+[pid: 10682|app: 0|req: 33/33] 14.215.160.202 () {48 vars in 995 bytes} [Fri Feb  8 23:48:13 2019] GET / => generated 662 bytes in 3323 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 34/34] 14.215.160.202 () {52 vars in 1064 bytes} [Fri Feb  8 23:48:17 2019] GET /static/style.css => generated 1242 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 306 bytes (0 switches on core 0)
+[pid: 10682|app: 0|req: 35/35] 119.84.153.253 () {44 vars in 777 bytes} [Fri Feb  8 23:48:18 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 36/36] 119.84.153.253 () {48 vars in 963 bytes} [Fri Feb  8 23:48:22 2019] GET /history => generated 1950 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 37/37] 119.84.153.253 () {44 vars in 749 bytes} [Fri Feb  8 23:48:23 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 38/38] 119.84.153.253 () {44 vars in 912 bytes} [Sat Feb  9 00:10:15 2019] GET / => generated 662 bytes in 4036 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 39/39] 119.84.153.253 () {44 vars in 777 bytes} [Sat Feb  9 00:10:19 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 40/40] 119.84.153.253 () {48 vars in 963 bytes} [Sat Feb  9 00:10:38 2019] GET /history => generated 2143 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 41/41] 119.84.153.253 () {44 vars in 749 bytes} [Sat Feb  9 00:10:38 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+记录失败！
+[pid: 10682|app: 0|req: 42/42] 119.4.252.190 () {42 vars in 874 bytes} [Sat Feb  9 00:24:45 2019] GET / => generated 662 bytes in 3666 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 43/43] 119.4.252.190 () {40 vars in 661 bytes} [Sat Feb  9 00:24:49 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 44/44] 78.132.196.249 () {32 vars in 452 bytes} [Sat Feb  9 00:58:12 2019] GET / => generated 662 bytes in 3786 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+记录失败！
+[pid: 10682|app: 0|req: 45/45] 138.204.134.225 () {32 vars in 454 bytes} [Sat Feb  9 02:20:15 2019] GET / => generated 662 bytes in 3928 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+记录失败！
+Sat Feb  9 02:37:58 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 223.74.82.151) !!!
+Sat Feb  9 02:37:58 2019 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during HEAD / (223.74.82.151)
+[pid: 10682|app: 0|req: 46/46] 223.74.82.151 () {36 vars in 395 bytes} [Sat Feb  9 02:37:55 2019] HEAD / => generated 0 bytes in 3042 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+记录失败！
+[pid: 10682|app: 0|req: 47/47] 118.31.244.58 () {26 vars in 269 bytes} [Sat Feb  9 03:47:57 2019] GET / => generated 662 bytes in 3678 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+记录失败！
+Sat Feb  9 05:15:43 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 107.150.102.38) !!!
+Sat Feb  9 05:15:43 2019 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (107.150.102.38)
+OSError: write error
+[pid: 10682|app: 0|req: 48/48] 107.150.102.38 () {44 vars in 730 bytes} [Sat Feb  9 05:15:39 2019] GET / => generated 0 bytes in 3879 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+Sat Feb  9 05:42:25 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 5.154.54.83) !!!
+Sat Feb  9 05:42:25 2019 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (5.154.54.83)
+OSError: write error
+[pid: 10682|app: 0|req: 49/49] 5.154.54.83 () {32 vars in 456 bytes} [Sat Feb  9 05:42:18 2019] GET / => generated 0 bytes in 6456 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+记录失败！
+Sat Feb  9 06:07:38 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 106.35.48.144) !!!
+Sat Feb  9 06:07:38 2019 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during HEAD / (106.35.48.144)
+[pid: 10682|app: 0|req: 50/50] 106.35.48.144 () {36 vars in 396 bytes} [Sat Feb  9 06:07:35 2019] HEAD / => generated 0 bytes in 3874 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+记录失败！
+[pid: 10682|app: 0|req: 51/51] 27.72.232.247 () {32 vars in 452 bytes} [Sat Feb  9 08:34:02 2019] GET / => generated 662 bytes in 4179 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+记录失败！
+Sat Feb  9 08:37:05 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 111.30.243.245) !!!
+Sat Feb  9 08:37:05 2019 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during HEAD / (111.30.243.245)
+[pid: 10682|app: 0|req: 52/52] 111.30.243.245 () {36 vars in 392 bytes} [Sat Feb  9 08:37:02 2019] HEAD / => generated 0 bytes in 2744 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+记录失败！
+[pid: 10682|app: 0|req: 53/53] 119.84.153.253 () {44 vars in 912 bytes} [Sat Feb  9 08:39:50 2019] GET / => generated 662 bytes in 4824 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 54/54] 119.84.153.253 () {44 vars in 787 bytes} [Sat Feb  9 08:39:56 2019] GET /static/style.css => generated 1242 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 306 bytes (0 switches on core 0)
+[pid: 10682|app: 0|req: 55/55] 119.84.153.253 () {44 vars in 742 bytes} [Sat Feb  9 08:39:56 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 56/56] 119.84.153.253 () {48 vars in 963 bytes} [Sat Feb  9 08:40:36 2019] GET /history => generated 2524 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+[pid: 10682|app: 0|req: 57/57] 47.52.210.38 () {26 vars in 268 bytes} [Sat Feb  9 09:24:57 2019] GET / => generated 662 bytes in 4379 msecs (HTTP/1.0 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 58/58] 185.248.100.159 () {36 vars in 461 bytes} [Sat Feb  9 10:00:41 2019] GET /z/style.css => generated 233 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 59/59] 139.224.11.233 () {34 vars in 496 bytes} [Sat Feb  9 10:32:37 2019] GET /?id=1 => generated 662 bytes in 3955 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 60/60] 80.82.70.187 () {34 vars in 421 bytes} [Sat Feb  9 10:32:52 2019] GET /cache/global/img/gs.gif => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+记录失败！
+[pid: 10682|app: 0|req: 61/61] 5.237.162.134 () {32 vars in 452 bytes} [Sat Feb  9 10:50:04 2019] GET / => generated 662 bytes in 4010 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+记录失败！
+[pid: 10682|app: 0|req: 62/62] 14.215.160.197 () {48 vars in 995 bytes} [Sat Feb  9 10:57:28 2019] GET / => generated 662 bytes in 3450 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 63/63] 14.215.160.197 () {52 vars in 1064 bytes} [Sat Feb  9 10:57:31 2019] GET /static/style.css => generated 1242 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 306 bytes (0 switches on core 0)
+[pid: 10682|app: 0|req: 64/64] 119.84.153.253 () {44 vars in 777 bytes} [Sat Feb  9 10:57:31 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 65/65] 119.84.153.253 () {48 vars in 963 bytes} [Sat Feb  9 10:57:33 2019] GET /history => generated 2717 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 66/66] 119.84.153.253 () {44 vars in 749 bytes} [Sat Feb  9 10:57:33 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+记录失败！
+[pid: 10682|app: 0|req: 67/67] 47.100.104.184 () {34 vars in 487 bytes} [Sat Feb  9 10:59:36 2019] GET / => generated 662 bytes in 2179 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 68/68] 47.100.51.203 () {36 vars in 500 bytes} [Sat Feb  9 10:59:53 2019] GET /history => generated 2717 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+Sat Feb  9 11:17:42 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 117.157.98.1) !!!
+Sat Feb  9 11:17:42 2019 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during HEAD / (117.157.98.1)
+[pid: 10682|app: 0|req: 69/69] 117.157.98.1 () {36 vars in 390 bytes} [Sat Feb  9 11:17:29 2019] HEAD / => generated 0 bytes in 13386 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+Sat Feb  9 11:56:39 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 113.96.223.207) !!!
+Sat Feb  9 11:56:39 2019 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (113.96.223.207)
+OSError: write error
+[pid: 10682|app: 0|req: 70/70] 113.96.223.207 () {28 vars in 296 bytes} [Sat Feb  9 11:56:35 2019] GET / => generated 0 bytes in 3754 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+记录失败！
+[pid: 10682|app: 0|req: 71/71] 47.98.62.203 () {34 vars in 466 bytes} [Sat Feb  9 12:16:23 2019] GET / => generated 657 bytes in 8317 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+记录失败！
+[pid: 10682|app: 0|req: 72/72] 197.245.108.112 () {32 vars in 454 bytes} [Sat Feb  9 12:19:29 2019] GET / => generated 662 bytes in 2255 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+记录失败！
+[pid: 10682|app: 0|req: 73/73] 14.215.160.139 () {48 vars in 995 bytes} [Sat Feb  9 13:06:43 2019] GET / => generated 662 bytes in 3722 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 74/74] 119.84.153.253 () {44 vars in 777 bytes} [Sat Feb  9 13:06:48 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 75/75] 119.84.153.253 () {48 vars in 963 bytes} [Sat Feb  9 13:06:54 2019] GET /history => generated 2910 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 76/76] 119.84.153.253 () {44 vars in 749 bytes} [Sat Feb  9 13:06:54 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 77/77] 119.84.153.253 () {50 vars in 994 bytes} [Sat Feb  9 13:07:20 2019] GET /history => generated 2910 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 78/78] 119.84.153.253 () {50 vars in 994 bytes} [Sat Feb  9 13:07:25 2019] GET /history => generated 2910 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 79/79] 119.84.153.253 () {48 vars in 963 bytes} [Sat Feb  9 13:07:29 2019] GET /history => generated 2910 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 80/80] 119.84.153.253 () {50 vars in 994 bytes} [Sat Feb  9 13:07:41 2019] GET /history => generated 2910 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 81/81] 119.84.153.253 () {50 vars in 994 bytes} [Sat Feb  9 13:07:44 2019] GET /history => generated 2910 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 82/82] 119.84.153.253 () {48 vars in 963 bytes} [Sat Feb  9 13:07:58 2019] GET /history => generated 2910 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 83/83] 119.84.153.253 () {50 vars in 994 bytes} [Sat Feb  9 13:08:03 2019] GET /history => generated 2910 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 10682|app: 0|req: 84/84] 78.1.183.126 () {32 vars in 451 bytes} [Sat Feb  9 13:37:18 2019] GET / => generated 662 bytes in 4115 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+记录失败！
+Sat Feb  9 13:37:26 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 78.1.183.126) !!!
+Sat Feb  9 13:37:26 2019 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (78.1.183.126)
+OSError: write error
+[pid: 10682|app: 0|req: 85/85] 78.1.183.126 () {32 vars in 457 bytes} [Sat Feb  9 13:37:22 2019] GET / => generated 0 bytes in 3596 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+记录失败！
+Sat Feb  9 14:02:07 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 115.29.223.75) !!!
+Sat Feb  9 14:02:07 2019 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during HEAD / (115.29.223.75)
+[pid: 10682|app: 0|req: 86/86] 115.29.223.75 () {28 vars in 295 bytes} [Sat Feb  9 14:02:00 2019] HEAD / => generated 0 bytes in 6657 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+记录失败！
+[pid: 10682|app: 0|req: 87/87] 58.65.163.222 () {32 vars in 451 bytes} [Sat Feb  9 14:17:12 2019] GET / => generated 662 bytes in 4309 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+记录失败！
+[pid: 10682|app: 0|req: 88/88] 122.168.124.80 () {32 vars in 452 bytes} [Sat Feb  9 14:23:30 2019] GET / => generated 662 bytes in 3984 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+记录失败！
+Sat Feb  9 14:43:03 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 171.114.17.107) !!!
+Sat Feb  9 14:43:03 2019 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during HEAD / (171.114.17.107)
+[pid: 10682|app: 0|req: 89/89] 171.114.17.107 () {36 vars in 393 bytes} [Sat Feb  9 14:42:59 2019] HEAD / => generated 0 bytes in 3994 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+记录失败！
+[pid: 10682|app: 0|req: 90/90] 88.225.26.233 () {32 vars in 452 bytes} [Sat Feb  9 14:51:20 2019] GET / => generated 662 bytes in 4135 msecs (HTTP/1.1 200) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Feb  9 15:58:40 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 31 January 2019 10:49:51
+os: Linux-4.20.4-1.el7.elrepo.x86_64 #1 SMP Tue Jan 22 18:39:11 EST 2019
+nodename: cc
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/web
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7883
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/webapp.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan 13 2019, 18:54:12)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xee2700
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+mounting webapp:app on /home/web
+WSGI app 0 (mountpoint='/home/web') ready in 0 seconds on interpreter 0xee2700 pid: 11840 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 11840, cores: 1)
+[pid: 11840|app: 0|req: 1/1] 14.215.160.135 () {48 vars in 995 bytes} [Sat Feb  9 15:59:23 2019] GET / => generated 1283 bytes in 12963 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 2/2] 119.84.153.253 () {44 vars in 777 bytes} [Sat Feb  9 15:59:36 2019] GET /favicon.ico => generated 233 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 3/3] 119.84.153.253 () {48 vars in 963 bytes} [Sat Feb  9 15:59:44 2019] GET /history => generated 3296 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 4/4] 119.84.153.253 () {44 vars in 749 bytes} [Sat Feb  9 15:59:44 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 5/5] 119.84.153.253 () {48 vars in 963 bytes} [Sat Feb  9 16:00:49 2019] GET /history => generated 3296 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 6/6] 119.84.153.253 () {50 vars in 994 bytes} [Sat Feb  9 16:00:52 2019] GET /history => generated 3296 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 7/7] 119.84.153.253 () {46 vars in 943 bytes} [Sat Feb  9 16:00:55 2019] GET / => generated 1283 bytes in 2265 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 8/8] 78.188.22.59 () {32 vars in 457 bytes} [Sat Feb  9 16:18:05 2019] GET / => generated 1283 bytes in 3766 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+Sat Feb  9 16:35:39 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 117.181.210.177) !!!
+Sat Feb  9 16:35:39 2019 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during HEAD / (117.181.210.177)
+[pid: 11840|app: 0|req: 9/9] 117.181.210.177 () {36 vars in 394 bytes} [Sat Feb  9 16:35:35 2019] HEAD / => generated 0 bytes in 3762 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+Sat Feb  9 17:06:19 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 200.55.249.162) !!!
+Sat Feb  9 17:06:19 2019 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (200.55.249.162)
+OSError: write error
+[pid: 11840|app: 0|req: 10/10] 200.55.249.162 () {32 vars in 453 bytes} [Sat Feb  9 17:06:14 2019] GET / => generated 0 bytes in 4822 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+[pid: 11840|app: 0|req: 11/11] 219.156.223.249 () {38 vars in 595 bytes} [Sat Feb  9 17:53:57 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 12/12] 14.215.160.169 () {48 vars in 995 bytes} [Sat Feb  9 18:25:35 2019] GET / => generated 1283 bytes in 4007 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 13/13] 119.84.153.253 () {44 vars in 777 bytes} [Sat Feb  9 18:25:40 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 14/14] 119.84.153.253 () {48 vars in 963 bytes} [Sat Feb  9 18:25:41 2019] GET /history => generated 3875 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 15/15] 119.84.153.253 () {44 vars in 749 bytes} [Sat Feb  9 18:25:42 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 16/16] 119.84.153.253 () {48 vars in 963 bytes} [Sat Feb  9 18:25:49 2019] GET /history => generated 3875 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 17/17] 119.84.153.253 () {50 vars in 994 bytes} [Sat Feb  9 18:25:51 2019] GET /history => generated 3875 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 18/18] 119.84.153.253 () {44 vars in 912 bytes} [Sat Feb  9 18:27:11 2019] GET / => generated 1283 bytes in 2707 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 19/19] 139.162.88.63 () {34 vars in 408 bytes} [Sat Feb  9 18:30:53 2019] GET /echo.php?info=1234567890 => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 20/20] 84.52.64.154 () {32 vars in 450 bytes} [Sat Feb  9 18:40:33 2019] GET / => generated 1283 bytes in 4471 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+Sat Feb  9 19:04:28 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 46.166.137.215) !!!
+Sat Feb  9 19:04:28 2019 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during HEAD / (46.166.137.215)
+[pid: 11840|app: 0|req: 21/21] 46.166.137.215 () {36 vars in 481 bytes} [Sat Feb  9 19:04:24 2019] HEAD / => generated 0 bytes in 3878 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+记录失败！
+Sat Feb  9 19:18:09 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 109.201.154.226) !!!
+Sat Feb  9 19:18:09 2019 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during HEAD / (109.201.154.226)
+[pid: 11840|app: 0|req: 22/22] 109.201.154.226 () {36 vars in 482 bytes} [Sat Feb  9 19:18:05 2019] HEAD / => generated 0 bytes in 4335 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+记录失败！
+Sat Feb  9 19:28:53 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 42.156.254.15) !!!
+Sat Feb  9 19:28:53 2019 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (42.156.254.15)
+OSError: write error
+[pid: 11840|app: 0|req: 23/23] 42.156.254.15 () {38 vars in 640 bytes} [Sat Feb  9 19:28:50 2019] GET / => generated 0 bytes in 3494 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+[pid: 11840|app: 0|req: 24/24] 136.144.154.119 () {30 vars in 426 bytes} [Sat Feb  9 20:11:30 2019] GET / => generated 1283 bytes in 4164 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 25/25] 195.91.211.87 () {32 vars in 452 bytes} [Sat Feb  9 20:27:47 2019] GET / => generated 1283 bytes in 3699 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 26/26] 106.39.190.122 () {48 vars in 978 bytes} [Sat Feb  9 20:33:41 2019] GET / => generated 1283 bytes in 3381 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 27/27] 106.39.190.122 () {52 vars in 1047 bytes} [Sat Feb  9 20:33:44 2019] GET /static/style.css => generated 2655 bytes in 6 msecs via sendfile() (HTTP/1.1 200) 8 headers in 307 bytes (0 switches on core 0)
+[pid: 11840|app: 0|req: 28/28] 101.206.169.4 () {40 vars in 661 bytes} [Sat Feb  9 20:33:45 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 29/29] 101.206.169.4 () {46 vars in 925 bytes} [Sat Feb  9 20:33:50 2019] GET /history => generated 4647 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 30/30] 101.206.169.4 () {42 vars in 711 bytes} [Sat Feb  9 20:33:50 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 31/31] 80.82.70.187 () {34 vars in 421 bytes} [Sat Feb  9 20:37:24 2019] GET /cache/global/img/gs.gif => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 32/32] 119.84.153.253 () {46 vars in 943 bytes} [Sat Feb  9 20:55:43 2019] GET / => generated 1283 bytes in 4186 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 33/33] 119.84.153.253 () {44 vars in 787 bytes} [Sat Feb  9 20:55:47 2019] GET /static/style.css => generated 2655 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 307 bytes (0 switches on core 0)
+[pid: 11840|app: 0|req: 34/34] 119.84.153.253 () {44 vars in 777 bytes} [Sat Feb  9 20:55:48 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 35/35] 119.84.153.253 () {48 vars in 963 bytes} [Sat Feb  9 20:56:05 2019] GET /history => generated 4840 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 36/36] 119.84.153.253 () {44 vars in 749 bytes} [Sat Feb  9 20:56:05 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 37/37] 52.225.176.48 () {34 vars in 381 bytes} [Sat Feb  9 21:37:20 2019] GET / => generated 1283 bytes in 4407 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 38/38] 177.38.2.154 () {32 vars in 450 bytes} [Sat Feb  9 22:56:21 2019] GET / => generated 1283 bytes in 4114 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 39/39] 211.103.82.177 () {48 vars in 978 bytes} [Sat Feb  9 23:13:16 2019] GET / => generated 1283 bytes in 3460 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 40/40] 211.103.82.177 () {52 vars in 1047 bytes} [Sat Feb  9 23:13:20 2019] GET /static/style.css => generated 2655 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 307 bytes (0 switches on core 0)
+[pid: 11840|app: 0|req: 41/41] 106.39.190.88 () {48 vars in 835 bytes} [Sat Feb  9 23:13:20 2019] GET /static/img/TK.jpg => generated 301572 bytes in 18 msecs via sendfile() (HTTP/1.1 200) 8 headers in 298 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 42/42] 119.4.250.167 () {40 vars in 650 bytes} [Sat Feb  9 23:13:22 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 43/43] 119.4.250.167 () {44 vars in 896 bytes} [Sat Feb  9 23:13:30 2019] GET /history => generated 5226 bytes in 3 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 44/44] 119.4.250.167 () {40 vars in 682 bytes} [Sat Feb  9 23:13:30 2019] GET /favicon.ico => generated 233 bytes in 1 msecs (HTTP/1.0 404) 2 headers in 72 bytes (1 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 45/45] 119.4.250.167 () {42 vars in 876 bytes} [Sat Feb  9 23:13:48 2019] GET / => generated 1283 bytes in 2102 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 46/46] 119.4.250.167 () {40 vars in 845 bytes} [Sat Feb  9 23:16:34 2019] GET / => generated 1283 bytes in 2415 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 47/47] 119.4.250.167 () {44 vars in 896 bytes} [Sat Feb  9 23:17:01 2019] GET /history => generated 5226 bytes in 3 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 48/48] 119.4.250.167 () {46 vars in 927 bytes} [Sat Feb  9 23:17:03 2019] GET /history => generated 5226 bytes in 3 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 49/49] 119.4.250.167 () {46 vars in 927 bytes} [Sat Feb  9 23:17:07 2019] GET /history => generated 5226 bytes in 3 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+Sat Feb  9 23:58:43 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request //wp-login.php (ip 198.50.217.202) !!!
+Sat Feb  9 23:58:43 2019 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET //wp-login.php (198.50.217.202)
+OSError: write error
+[pid: 11840|app: 0|req: 50/50] 198.50.217.202 () {42 vars in 626 bytes} [Sat Feb  9 23:58:43 2019] GET //wp-login.php => generated 0 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 0 bytes (0 switches on core 0)
+Sat Feb  9 23:59:00 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request //xmlrpc.php (ip 198.50.217.202) !!!
+Sat Feb  9 23:59:00 2019 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET //xmlrpc.php (198.50.217.202)
+OSError: write error
+[pid: 11840|app: 0|req: 51/51] 198.50.217.202 () {42 vars in 622 bytes} [Sat Feb  9 23:59:00 2019] GET //xmlrpc.php => generated 0 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 0 bytes (0 switches on core 0)
+Sun Feb 10 00:20:12 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 58.255.202.171) !!!
+Sun Feb 10 00:20:12 2019 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during HEAD / (58.255.202.171)
+[pid: 11840|app: 0|req: 52/52] 58.255.202.171 () {36 vars in 397 bytes} [Sun Feb 10 00:20:08 2019] HEAD / => generated 0 bytes in 3958 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 53/53] 119.23.138.247 () {26 vars in 270 bytes} [Sun Feb 10 00:42:12 2019] GET / => generated 1283 bytes in 3600 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+Sun Feb 10 02:04:19 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 46.236.65.125) !!!
+Sun Feb 10 02:04:19 2019 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (46.236.65.125)
+OSError: write error
+[pid: 11840|app: 0|req: 54/54] 46.236.65.125 () {32 vars in 452 bytes} [Sun Feb 10 02:04:13 2019] GET / => generated 0 bytes in 6690 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 55/55] 82.54.209.85 () {32 vars in 457 bytes} [Sun Feb 10 02:10:07 2019] GET / => generated 1283 bytes in 3683 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 56/56] 45.41.67.196 () {32 vars in 457 bytes} [Sun Feb 10 03:11:00 2019] GET / => generated 1283 bytes in 3683 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 57/57] 138.204.134.46 () {32 vars in 452 bytes} [Sun Feb 10 03:20:46 2019] GET / => generated 1283 bytes in 3133 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+Sun Feb 10 03:26:02 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 103.232.144.154) !!!
+Sun Feb 10 03:26:02 2019 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during HEAD / (103.232.144.154)
+[pid: 11840|app: 0|req: 58/58] 103.232.144.154 () {36 vars in 399 bytes} [Sun Feb 10 03:25:59 2019] HEAD / => generated 0 bytes in 3594 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+记录失败！
+Sun Feb 10 04:40:55 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 128.14.227.182) !!!
+Sun Feb 10 04:40:55 2019 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (128.14.227.182)
+OSError: write error
+[pid: 11840|app: 0|req: 59/59] 128.14.227.182 () {44 vars in 730 bytes} [Sun Feb 10 04:40:52 2019] GET / => generated 0 bytes in 3808 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+记录失败！
+Sun Feb 10 06:18:27 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 52.53.201.78) !!!
+Sun Feb 10 06:18:27 2019 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (52.53.201.78)
+OSError: write error
+[pid: 11840|app: 0|req: 60/60] 52.53.201.78 () {34 vars in 481 bytes} [Sun Feb 10 06:18:24 2019] GET / => generated 0 bytes in 3733 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 61/61] 119.23.174.205 () {26 vars in 270 bytes} [Sun Feb 10 06:22:43 2019] GET / => generated 1283 bytes in 2174 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 62/62] 80.82.70.187 () {34 vars in 421 bytes} [Sun Feb 10 06:50:24 2019] GET /cache/global/img/gs.gif => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 63/63] 91.227.226.225 () {32 vars in 452 bytes} [Sun Feb 10 07:15:50 2019] GET / => generated 1283 bytes in 3802 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 64/64] 106.39.190.122 () {48 vars in 996 bytes} [Sun Feb 10 07:52:22 2019] GET / => generated 1283 bytes in 4278 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 65/65] 106.39.190.122 () {52 vars in 1065 bytes} [Sun Feb 10 07:52:27 2019] GET /static/style.css => generated 2655 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 307 bytes (0 switches on core 0)
+[pid: 11840|app: 0|req: 66/66] 119.84.153.253 () {44 vars in 778 bytes} [Sun Feb 10 07:52:27 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 67/67] 119.84.153.253 () {48 vars in 964 bytes} [Sun Feb 10 07:52:29 2019] GET /history => generated 5419 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 68/68] 119.84.153.253 () {44 vars in 750 bytes} [Sun Feb 10 07:52:29 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 69/69] 190.186.101.142 () {32 vars in 454 bytes} [Sun Feb 10 08:08:26 2019] GET / => generated 1283 bytes in 3420 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 70/70] 191.240.32.2 () {32 vars in 457 bytes} [Sun Feb 10 08:43:03 2019] GET / => generated 1283 bytes in 3968 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 71/71] 119.84.153.253 () {44 vars in 913 bytes} [Sun Feb 10 09:01:55 2019] GET / => generated 1283 bytes in 3698 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 72/72] 119.84.153.253 () {44 vars in 788 bytes} [Sun Feb 10 09:01:59 2019] GET /static/style.css => generated 2655 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 307 bytes (0 switches on core 0)
+[pid: 11840|app: 0|req: 73/73] 119.84.153.253 () {44 vars in 743 bytes} [Sun Feb 10 09:01:59 2019] GET /favicon.ico => generated 233 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 74/74] 119.84.153.253 () {48 vars in 964 bytes} [Sun Feb 10 09:02:03 2019] GET /history => generated 5998 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 75/75] 101.132.156.172 () {34 vars in 488 bytes} [Sun Feb 10 09:11:14 2019] GET / => generated 1283 bytes in 4639 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 76/76] 47.92.125.35 () {36 vars in 499 bytes} [Sun Feb 10 09:29:42 2019] GET /history => generated 6191 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 77/77] 211.103.82.159 () {48 vars in 978 bytes} [Sun Feb 10 09:34:54 2019] GET / => generated 1283 bytes in 4776 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 78/78] 119.4.249.150 () {40 vars in 650 bytes} [Sun Feb 10 09:35:00 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 79/79] 119.4.249.150 () {44 vars in 896 bytes} [Sun Feb 10 09:35:03 2019] GET /history => generated 6384 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 80/80] 119.4.249.150 () {40 vars in 682 bytes} [Sun Feb 10 09:35:04 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+Sun Feb 10 10:05:12 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 180.139.94.214) !!!
+Sun Feb 10 10:05:12 2019 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during HEAD / (180.139.94.214)
+[pid: 11840|app: 0|req: 81/81] 180.139.94.214 () {36 vars in 396 bytes} [Sun Feb 10 10:05:03 2019] HEAD / => generated 0 bytes in 8673 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+[pid: 11840|app: 0|req: 82/82] 84.53.192.138 () {32 vars in 458 bytes} [Sun Feb 10 10:24:04 2019] GET / => generated 1283 bytes in 4189 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 83/83] 119.4.249.150 () {40 vars in 845 bytes} [Sun Feb 10 10:37:52 2019] GET / => generated 1283 bytes in 4356 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 84/84] 119.4.249.150 () {40 vars in 650 bytes} [Sun Feb 10 10:37:57 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 85/85] 119.4.249.150 () {40 vars in 845 bytes} [Sun Feb 10 11:00:29 2019] GET / => generated 1283 bytes in 4358 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 86/86] 119.4.249.150 () {40 vars in 675 bytes} [Sun Feb 10 11:00:33 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 87/87] 46.34.174.1 () {36 vars in 507 bytes} [Sun Feb 10 11:02:05 2019] GET / => generated 1283 bytes in 2357 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 88/88] 119.4.249.150 () {40 vars in 845 bytes} [Sun Feb 10 11:03:07 2019] GET / => generated 1283 bytes in 4180 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 89/89] 119.4.249.150 () {40 vars in 845 bytes} [Sun Feb 10 11:21:17 2019] GET / => generated 1283 bytes in 8362 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 90/90] 119.4.249.150 () {44 vars in 793 bytes} [Sun Feb 10 11:21:26 2019] GET /static/img/TK.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 5 headers in 212 bytes (0 switches on core 0)
+[pid: 11840|app: 0|req: 91/91] 119.4.249.150 () {40 vars in 650 bytes} [Sun Feb 10 11:21:26 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 92/92] 119.4.249.150 () {44 vars in 896 bytes} [Sun Feb 10 11:21:31 2019] GET /history => generated 6963 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 93/93] 119.4.249.150 () {40 vars in 682 bytes} [Sun Feb 10 11:21:31 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 94/94] 87.107.57.200 () {32 vars in 451 bytes} [Sun Feb 10 11:22:04 2019] GET / => generated 1283 bytes in 2304 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 95/95] 151.243.196.209 () {36 vars in 510 bytes} [Sun Feb 10 12:24:14 2019] GET / => generated 1283 bytes in 4783 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 96/96] 103.206.103.194 () {32 vars in 454 bytes} [Sun Feb 10 13:10:04 2019] GET / => generated 1283 bytes in 4152 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+Sun Feb 10 13:28:53 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 175.148.148.115) !!!
+Sun Feb 10 13:28:53 2019 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during HEAD / (175.148.148.115)
+[pid: 11840|app: 0|req: 97/97] 175.148.148.115 () {36 vars in 398 bytes} [Sun Feb 10 13:28:49 2019] HEAD / => generated 0 bytes in 3582 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 98/98] 211.103.82.169 () {48 vars in 978 bytes} [Sun Feb 10 14:09:44 2019] GET / => generated 1283 bytes in 4388 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 99/99] 211.103.82.169 () {52 vars in 1047 bytes} [Sun Feb 10 14:09:49 2019] GET /static/style.css => generated 2655 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 307 bytes (0 switches on core 0)
+[pid: 11840|app: 0|req: 100/100] 119.4.249.150 () {40 vars in 650 bytes} [Sun Feb 10 14:09:50 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 101/101] 119.4.249.150 () {44 vars in 896 bytes} [Sun Feb 10 14:09:54 2019] GET /history => generated 7156 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 102/102] 119.4.249.150 () {40 vars in 682 bytes} [Sun Feb 10 14:09:54 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+Sun Feb 10 14:55:36 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 79.107.216.226) !!!
+Sun Feb 10 14:55:36 2019 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (79.107.216.226)
+OSError: write error
+[pid: 11840|app: 0|req: 103/103] 79.107.216.226 () {32 vars in 452 bytes} [Sun Feb 10 14:55:31 2019] GET / => generated 0 bytes in 4860 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+[pid: 11840|app: 0|req: 104/104] 47.97.216.82 () {34 vars in 466 bytes} [Sun Feb 10 16:06:24 2019] GET / => generated 1283 bytes in 3968 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+Sun Feb 10 16:59:23 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 183.166.32.200) !!!
+Sun Feb 10 16:59:23 2019 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during HEAD / (183.166.32.200)
+[pid: 11840|app: 0|req: 105/105] 183.166.32.200 () {36 vars in 397 bytes} [Sun Feb 10 16:59:19 2019] HEAD / => generated 0 bytes in 4435 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+[pid: 11840|app: 0|req: 106/106] 80.82.70.187 () {34 vars in 421 bytes} [Sun Feb 10 17:04:00 2019] GET /cache/global/img/gs.gif => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+Sun Feb 10 20:55:41 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 179.110.142.52) !!!
+Sun Feb 10 20:55:41 2019 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (179.110.142.52)
+OSError: write error
+[pid: 11840|app: 0|req: 107/107] 179.110.142.52 () {32 vars in 452 bytes} [Sun Feb 10 20:55:37 2019] GET / => generated 0 bytes in 4271 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+记录失败！
+Sun Feb 10 20:58:29 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 223.244.195.116) !!!
+Sun Feb 10 20:58:29 2019 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during HEAD / (223.244.195.116)
+[pid: 11840|app: 0|req: 108/108] 223.244.195.116 () {36 vars in 398 bytes} [Sun Feb 10 20:58:26 2019] HEAD / => generated 0 bytes in 2138 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 109/109] 51.144.226.4 () {34 vars in 380 bytes} [Sun Feb 10 22:08:57 2019] GET / => generated 1283 bytes in 3839 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 110/110] 66.251.142.150 () {32 vars in 452 bytes} [Sun Feb 10 22:47:39 2019] GET / => generated 1283 bytes in 4012 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 111/111] 170.245.131.86 () {32 vars in 452 bytes} [Sun Feb 10 23:26:14 2019] GET / => generated 1283 bytes in 4315 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 112/112] 210.19.251.46 () {40 vars in 508 bytes} [Mon Feb 11 00:10:29 2019] GET /w00tw00t.at.blackhats.romanian.anti-sec:) => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 113/113] 210.19.251.46 () {40 vars in 482 bytes} [Mon Feb 11 00:10:30 2019] GET /phpMyAdmin/scripts/setup.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 114/114] 210.19.251.46 () {40 vars in 482 bytes} [Mon Feb 11 00:10:30 2019] GET /phpmyadmin/scripts/setup.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 115/115] 210.19.251.46 () {40 vars in 468 bytes} [Mon Feb 11 00:10:31 2019] GET /pma/scripts/setup.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 116/116] 210.19.251.46 () {40 vars in 476 bytes} [Mon Feb 11 00:10:31 2019] GET /myadmin/scripts/setup.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 117/117] 210.19.251.46 () {40 vars in 476 bytes} [Mon Feb 11 00:10:32 2019] GET /MyAdmin/scripts/setup.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+Mon Feb 11 01:20:44 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 121.230.13.214) !!!
+Mon Feb 11 01:20:44 2019 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during HEAD / (121.230.13.214)
+[pid: 11840|app: 0|req: 118/118] 121.230.13.214 () {36 vars in 397 bytes} [Mon Feb 11 01:20:40 2019] HEAD / => generated 0 bytes in 4089 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+记录失败！
+Mon Feb 11 01:21:09 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 114.42.197.199) !!!
+Mon Feb 11 01:21:09 2019 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (114.42.197.199)
+OSError: write error
+[pid: 11840|app: 0|req: 119/119] 114.42.197.199 () {32 vars in 459 bytes} [Mon Feb 11 01:21:03 2019] GET / => generated 0 bytes in 5955 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+[pid: 11840|app: 0|req: 120/120] 178.73.215.171 () {28 vars in 287 bytes} [Mon Feb 11 02:29:25 2019] GET / => generated 1283 bytes in 4277 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 121/121] 222.124.13.107 () {32 vars in 452 bytes} [Mon Feb 11 03:04:18 2019] GET / => generated 1283 bytes in 3684 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 122/122] 80.82.70.187 () {34 vars in 421 bytes} [Mon Feb 11 03:08:03 2019] GET /cache/global/img/gs.gif => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+记录失败！
+Mon Feb 11 03:23:55 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 104.131.145.126) !!!
+Mon Feb 11 03:23:55 2019 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (104.131.145.126)
+OSError: write error
+[pid: 11840|app: 0|req: 123/123] 104.131.145.126 () {34 vars in 383 bytes} [Mon Feb 11 03:23:41 2019] GET / => generated 0 bytes in 13300 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 124/124] 177.73.1.225 () {32 vars in 450 bytes} [Mon Feb 11 04:08:08 2019] GET / => generated 1283 bytes in 4719 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+Mon Feb 11 04:28:10 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 183.187.94.140) !!!
+Mon Feb 11 04:28:10 2019 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during HEAD / (183.187.94.140)
+[pid: 11840|app: 0|req: 125/125] 183.187.94.140 () {36 vars in 397 bytes} [Mon Feb 11 04:28:07 2019] HEAD / => generated 0 bytes in 3288 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 126/126] 188.158.67.82 () {36 vars in 508 bytes} [Mon Feb 11 05:21:52 2019] GET / => generated 1283 bytes in 4891 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 127/127] 2.183.104.37 () {32 vars in 451 bytes} [Mon Feb 11 05:42:58 2019] GET / => generated 1283 bytes in 5168 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 128/128] 2.183.104.37 () {32 vars in 451 bytes} [Mon Feb 11 05:43:03 2019] GET / => generated 1283 bytes in 3226 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+Mon Feb 11 05:43:10 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 2.183.104.37) !!!
+Mon Feb 11 05:43:10 2019 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (2.183.104.37)
+OSError: write error
+[pid: 11840|app: 0|req: 129/129] 2.183.104.37 () {32 vars in 450 bytes} [Mon Feb 11 05:43:07 2019] GET / => generated 0 bytes in 3660 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 130/130] 170.254.151.218 () {32 vars in 454 bytes} [Mon Feb 11 06:14:31 2019] GET / => generated 1283 bytes in 3732 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+Mon Feb 11 07:11:45 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 60.13.186.222) !!!
+Mon Feb 11 07:11:45 2019 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during HEAD / (60.13.186.222)
+[pid: 11840|app: 0|req: 131/131] 60.13.186.222 () {36 vars in 396 bytes} [Mon Feb 11 07:11:30 2019] HEAD / => generated 0 bytes in 15159 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 132/132] 47.52.210.38 () {26 vars in 268 bytes} [Mon Feb 11 07:33:59 2019] GET / => generated 1283 bytes in 3873 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+Mon Feb 11 08:45:48 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 81.255.240.43) !!!
+Mon Feb 11 08:45:48 2019 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during HEAD / (81.255.240.43)
+[pid: 11840|app: 0|req: 133/133] 81.255.240.43 () {36 vars in 502 bytes} [Mon Feb 11 08:45:43 2019] HEAD / => generated 0 bytes in 4202 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+记录失败！
+Mon Feb 11 08:45:50 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 81.255.240.43) !!!
+Mon Feb 11 08:45:50 2019 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (81.255.240.43)
+OSError: write error
+[pid: 11840|app: 0|req: 134/134] 81.255.240.43 () {38 vars in 573 bytes} [Mon Feb 11 08:45:48 2019] GET / => generated 0 bytes in 2362 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+[pid: 11840|app: 0|req: 135/135] 92.245.102.158 () {32 vars in 452 bytes} [Mon Feb 11 09:08:22 2019] GET / => generated 1283 bytes in 4813 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 136/136] 120.78.225.124 () {26 vars in 270 bytes} [Mon Feb 11 09:27:46 2019] GET / => generated 1283 bytes in 4261 msecs (HTTP/1.0 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 137/137] 64.34.218.30 () {40 vars in 507 bytes} [Mon Feb 11 09:30:23 2019] GET /w00tw00t.at.blackhats.romanian.anti-sec:) => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 138/138] 64.34.218.30 () {40 vars in 481 bytes} [Mon Feb 11 09:30:24 2019] GET /phpMyAdmin/scripts/setup.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 139/139] 64.34.218.30 () {40 vars in 481 bytes} [Mon Feb 11 09:30:24 2019] GET /phpmyadmin/scripts/setup.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 140/140] 64.34.218.30 () {40 vars in 467 bytes} [Mon Feb 11 09:30:24 2019] GET /pma/scripts/setup.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 141/141] 64.34.218.30 () {40 vars in 475 bytes} [Mon Feb 11 09:30:25 2019] GET /myadmin/scripts/setup.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 142/142] 64.34.218.30 () {40 vars in 475 bytes} [Mon Feb 11 09:30:25 2019] GET /MyAdmin/scripts/setup.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+记录失败！
+Mon Feb 11 09:41:50 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 23.91.97.211) !!!
+Mon Feb 11 09:41:50 2019 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET / (23.91.97.211)
+OSError: write error
+[pid: 11840|app: 0|req: 143/143] 23.91.97.211 () {44 vars in 728 bytes} [Mon Feb 11 09:41:46 2019] GET / => generated 0 bytes in 4006 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+记录失败！
+Mon Feb 11 09:54:14 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 46.166.190.137) !!!
+Mon Feb 11 09:54:14 2019 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during HEAD / (46.166.190.137)
+[pid: 11840|app: 0|req: 144/144] 46.166.190.137 () {36 vars in 481 bytes} [Mon Feb 11 09:54:09 2019] HEAD / => generated 0 bytes in 4949 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)
+[pid: 11840|app: 0|req: 145/145] 106.39.190.121 () {48 vars in 994 bytes} [Mon Feb 11 11:10:21 2019] GET / => generated 1283 bytes in 5233 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 146/146] 106.39.190.121 () {52 vars in 1063 bytes} [Mon Feb 11 11:10:26 2019] GET /static/style.css => generated 2655 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 307 bytes (0 switches on core 0)
+[pid: 11840|app: 0|req: 147/147] 119.84.153.253 () {44 vars in 786 bytes} [Mon Feb 11 11:10:27 2019] GET /static/style.css => generated 2655 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 307 bytes (0 switches on core 0)
+[pid: 11840|app: 0|req: 148/148] 119.84.153.253 () {44 vars in 804 bytes} [Mon Feb 11 11:10:27 2019] GET /static/img/TK.jpg => generated 301572 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 8 headers in 298 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 149/149] 119.84.153.253 () {44 vars in 776 bytes} [Mon Feb 11 11:10:27 2019] GET /favicon.ico => generated 233 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 150/150] 119.84.153.253 () {48 vars in 962 bytes} [Mon Feb 11 11:10:34 2019] GET /history => generated 9279 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 151/151] 119.84.153.253 () {44 vars in 748 bytes} [Mon Feb 11 11:10:34 2019] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+记录失败！
+[pid: 11840|app: 0|req: 152/152] 119.84.153.253 () {46 vars in 942 bytes} [Mon Feb 11 11:10:40 2019] GET / => generated 1283 bytes in 2916 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+[pid: 11840|app: 0|req: 153/153] 106.14.167.211 () {36 vars in 501 bytes} [Mon Feb 11 12:06:24 2019] GET /history => generated 9279 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 81 bytes (1 switches on core 0)
+记录失败！
+Mon Feb 11 12:17:40 2019 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request / (ip 42.234.59.130) !!!
+Mon Feb 11 12:17:40 2019 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during HEAD / (42.234.59.130)
+[pid: 11840|app: 0|req: 154/154] 42.234.59.130 () {36 vars in 396 bytes} [Mon Feb 11 12:17:34 2019] HEAD / => generated 0 bytes in 6004 msecs (HTTP/1.1 200) 2 headers in 0 bytes (0 switches on core 0)

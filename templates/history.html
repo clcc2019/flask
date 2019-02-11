@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<title>联通流量查询</title>
+   	<link rel="stylesheet" href="../static/style.css">
+    <style>
+        .li {
+            background-color: #930b1b;
+            text-align: center;
+            color: #fff;
+            width: 50%;
+			margin: 2px;
+        }
+    </style>
+</head>
+<body>
+	<div class="panel">
+        <h3 style="margin-top: 1px;">历史记录</h3>
+        <div class="row">
+            <p class="li" style="background-color: #FFAA33; font-size: 15px;">剩余</p>
+            <p class="li" style="background-color: #FFAA33; font-size: 15px;">总计</p>
+		</div>
+        {% for li in data %}
+		<div class="row">
+            <span class="li" style="width: 45%;margin: 2.5%;">{{ li['剩余'] }}MB</span>
+            <span class="li" style="width: 45%;margin: 2.5%;">{{ li['已用'] }}GB</span>
+		</div>
+        {% endfor %}
+	</div>
+	</body>
+</html>

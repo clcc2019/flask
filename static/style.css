@@ -1,0 +1,89 @@
+
+		html{
+			font-size: 62.5%;
+			background-color: #f8f8f8;
+		}
+		.panel{
+			/*border: 1px;*/
+    		background: -webkit-linear-gradient(left, #fa3e23 , #fa6023); /* Safari 5.1 - 6.0 */
+    		background: -o-linear-gradient(right, #fa3e23, #fa6023); /* Opera 11.1 - 12.0 */
+    		background: -moz-linear-gradient(right, #fa3e23, #fa6023); /* Firefox 3.6 - 15 */
+			color: #f8f8f8;
+			padding: 5px 5px;
+			border-radius: 15px;
+			font: normal 90% PingFangSC-Medium,sans-serif;
+			font-size:1.4rem;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    		background: linear-gradient(to right, #fa3e23 , #fa6023); /* 标准的语法（必须放在最后）
+			/*margin: 1px;*/
+		}
+		p{
+			font-size: 20px;
+			font-family:'Times New Roman', PingFangSC-Medium, serif
+		}
+		.li{
+			border-radius: 10px;
+			margin-top: 1%;
+			color: #c22f3d;
+			padding: 10px 10px;
+			font: normal 100% PingFangSC-Medium,sans-serif;
+			background-color: #FFAA33;
+			font-size:1.1rem;
+		}
+		.panel2{
+			color: #f8f8f8;
+			background-color: #930b1b;
+			width: 49%;
+			border-radius: 10px;
+			margin: 3px;
+			padding: 6px 6px;
+			font: normal 90% PingFangSC-Medium,sans-serif;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+		}
+		h3 {
+			margin-top: 10px;
+			margin-bottom: 5px;
+			/*font-size: 20px;*/
+			text-align: center;
+			align-content: center;
+		}
+		h4 {
+			margin-top: 1px;
+			margin-bottom: 1px;
+			font-size: 15px;
+		}
+		.row{
+			/*border: 1px;*/
+			display: -webkit-flex;
+    		display: flex;
+    		width: 100%;
+			border-radius: 10px;
+			/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+		}
+		.panel3{
+			background-color: #FFAA33;
+			border-radius: 10px;
+			width: 15%;
+			border: 1px;
+			margin: 3px;
+			text-align: center;
+			font: normal 90% PingFangSC-Medium,sans-serif;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		.TK{
+    		/*background: -webkit-linear-gradient(left, #fa3e23 , #fa6023); !* Safari 5.1 - 6.0 *!*/
+    		/*background: -o-linear-gradient(right, #fa3e23, #fa6023); !* Opera 11.1 - 12.0 *!*/
+    		/*background: -moz-linear-gradient(right, #fa3e23, #fa6023); !* Firefox 3.6 - 15 *!*/
+			color: #f8f8f8;
+			padding: 10% 0px 0px 0px;
+			border-radius: 15px;
+			margin-top: 2%;
+			width: 25%;
+			background-image: url("../static/img/TK.jpg");
+			font: normal 100% PingFangSC-Medium,sans-serif;
+			font-size: 1.4rem;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    		/*background: linear-gradient(to right, #fa3e23 , #fa6023); !* 标准的语法（必须放在最后）*/
+		}
+
