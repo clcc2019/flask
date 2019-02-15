@@ -5,49 +5,101 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
 	<title>联通流量查询</title>
 	<link rel="stylesheet" href="../static/style.css">
+	<link rel="stylesheet" href="//cdnjs.loli.net/ajax/libs/mdui/0.4.2/css/mdui.min.css">
+	<scripst src="//cdnjs.loli.net/ajax/libs/mdui/0.4.2/js/mdui.min.js"></scripst>
 	<style>
 		.p {
 			font-family: PingFangSC-Medium, sans-serif;
 			font-size: 18px;
 			font-weight: bold;
+			/*text-align: center;*/
+			/*margin-top: 10px;*/
 						/*text-shadow: 5px 5px 5px #FF0000;*/
-
 		}
 		.panel{
 			margin-top: 1px;
 		}
-
+		.log_img {
+			margin-top: 5%;
+			margin-bottom: 5%;
+			padding: 2px 2px;
+			margin-left: 10%;
+        	width:20%;
+        	height:20%;
+       		border-radius:200px;
+		}
+		.log{
+			margin-top: 10%;
+			margin-left: 25%;
+			font-size: 24px;
+			font-weight: bold;
+		}
 	</style>
+
 </head>
 <body>
-	<div class="panel">
-		<div class="row">
+<div class="row">
+	<!--<img src="../static/img/img4.jpg" height="911" width="876"/>-->
+	<img src="../static/img/img5.jpg" class="log_img mdui-shadow-5"/>
+	<span class="log">19th.life</span>
+</div>
+<div class="mdui-container" style="width: 100%">
+  <div class="mdui-row">
+    <div class="mdui-col-sm-6 mdui-col-md-4" style="width: 100%">
+      <div class="mdui-card">
+        <div class="mdui-card-media">
+          <img src="../static/img/query_card.jpg"/>
+          <!--<img src="../static/img/img3.jpg"/>-->
+          <div class="mdui-card-media-covered">
+            <div class="mdui-card-primary">
+              <div class="mdui-card-primary-title" style="font-weight: bold;font-size: 24px;">最新使用量</div>
+              <div class="mdui-card-primary-subtitle">17628371896ls
+			  </div>
+            </div>
+            <div class="mdui-card-actions" style="color: #930b1b;">
 				{% if data %}
-			<div class="panel2">
-				<h4>剩余可用：</h4>
-				<h3 style="font-size: 20px;">{{ data[0] }}MB</h3>
-			</div>
-			<div class="panel2">
-				<h4>总共已用：</h4>
-				<h3 style="font-size: 20px;">{{ data[1] }}GB</h3>
-			</div>
+              <button class="mdui-btn mdui-ripple mdui-ripple-white" style="font-weight: bold;font-size: 20px;">{{ data[0] }} MB</button>
+              <button class="mdui-btn mdui-ripple mdui-ripple-white" style="font-weight: bold;font-size: 20px;">{{ data[1] }} GB</button>
 				{% endif %}
-			<button class="panel3" type="button" onclick="window.location.href='/history'">
-				<h3>查看<br>历史</h3>
-			</button>
-
-		</div>
-	</div>
-	<span class="p">王卡Token更新 </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+	<!--<div class="panel">-->
+		<!--<div class="row">-->
+				<!--&lt;!&ndash;{% if data %}&ndash;&gt;-->
+			<!--<div class="panel2">-->
+				<!--<h4>剩余可用：</h4>-->
+				<!--<h3 style="font-size: 20px;">{{ data[0] }}MB</h3>-->
+			<!--</div>-->
+			<!--<div class="panel2">-->
+				<!--<h4>总共已用：</h4>-->
+				<!--<h3 style="font-size: 20px;">{{ data[1] }}GB</h3>-->
+			<!--</div>-->
+				<!--&lt;!&ndash;{% endif %}&ndash;&gt;-->
+			<!--<button class="panel3" type="button" onclick="window.location.href='/history'">-->
+				<!--<h3>查看<br>历史</h3>-->
+			<!--</button>-->
+		<!--</div>-->
+	<!--</div>-->
+	<h2 style="margin-top: 5%;text-align: center;">王卡Token更新 </h2>
 	<div class="panel">
 		<p style="text-align: center;font-weight: bold;">建设中<br>+ WeChat: dsong714</p>
 	</div>
 
-	<div class="TK" onclick="window.location.href='https://yaohuo.me/'">
-		<div style="color: green;text-align: center; border-radius: 15px;background-color: #f8f8f8;">
-		<p class="p">看帖子</p>
-		</div>
-
-	</div>
+<ul class="mdui-list mdui-list-dense" style="max-width: 100%;">
+  <li class="mdui-list-item">
+    <div class="mdui-list-item-avatar"><img src="https://mdui-aliyun.cdn.w3cbus.com/docs/assets/docs/img/avatar1.jpg"/></div>
+    <div class="mdui-list-item-content">
+      <div class="mdui-list-item-title" style="font-weight: bold;">{{ 标题 }}}</div>
+      <div class="mdui-list-item-text mdui-list-item-two-line"><span class="mdui-text-color-black">{{ 作者 }}} - </span> {{ 内容 }}</div>
+    </div>
+  </li>
+	<ul>
 </body>
+
+
 </html>

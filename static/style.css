@@ -22,7 +22,7 @@
 			font-family:'Times New Roman', PingFangSC-Medium, serif
 		}
 		.li{
-			border-radius: 10px;
+			border-radius: 5px;
 			margin-top: 1%;
 			color: #c22f3d;
 			padding: 10px 10px;
@@ -34,12 +34,11 @@
 			color: #f8f8f8;
 			background-color: #930b1b;
 			width: 49%;
-			border-radius: 10px;
+			border-radius: 5px;
 			margin: 3px;
 			padding: 6px 6px;
 			font: normal 90% PingFangSC-Medium,sans-serif;
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 		}
 		h3 {
 			margin-top: 10px;
@@ -86,4 +85,18 @@
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     		/*background: linear-gradient(to right, #fa3e23 , #fa6023); !* 标准的语法（必须放在最后）*/
 		}
-
+		.log_img {
+			margin-top: 5%;
+			margin-bottom: 5%;
+			padding: 2px 2px;
+			margin-left: 10%;
+        	width:20%;
+        	height:20%;
+       		border-radius:200px;
+		}
+		.log{
+			margin-top: 10%;
+			margin-left: 25%;
+			font-size: 24px;
+			font-weight: bold;
+		}
