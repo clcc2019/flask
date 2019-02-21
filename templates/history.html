@@ -1,35 +1,147 @@
+
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
-	<title>联通流量查询</title>
-   	<link rel="stylesheet" href="../static/style.css">
-    <style>
-        .li {
-            background-color: #930b1b;
-            text-align: center;
-            color: #fff;
-            width: 50%;
-			margin: 2px;
-        }
-    </style>
+
+
+
+
+
+
+
+
+
+
+   
+      
+   
+   
+
+
+
+    
+    
+
+<input type="hidden" id="static_path" value="https://img.client.10010.com/mobileService/view/client">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+
+<link href="https://img.client.10010.com/mobileService/view/client/styles/reset.css" type="text/css" rel="stylesheet"/>
+<link href="https://img.client.10010.com/mobileService/view/client/styles/layoutNew.css" type="text/css" rel="stylesheet"/>
+
+	<link href="https://img.client.10010.com/mobileService/view/client/styles/baseNew.css" type="text/css" rel="stylesheet" />
+
+<link href="https://img.client.10010.com/mobileService/view/client/styles/addNew.css" type="text/css" rel="stylesheet" />
+<link href="https://img.client.10010.com/mobileService/view/client/styles/smartService.css" type="text/css" rel="stylesheet" />
+
+<!-- 解决页面防御--html注释陷阱 -->
+<!--
+<head>
 </head>
 <body>
-	<div class="panel">
-        <h3 style="margin-top: 1px;">历史记录</h3>
-        <div class="row">
-            <p class="li" style="background-color: #FFAA33; font-size: 15px;">剩余</p>
-            <p class="li" style="background-color: #FFAA33; font-size: 15px;">总计</p>
-		</div>
-        {% for li in data %}
-		<div class="row">
-            <span class="li" style="width: 45%;margin: 2.5%;">{{ li['剩余'] }}MB</span>
-            <span class="li" style="width: 45%;margin: 2.5%;">{{ li['已用'] }}GB</span>
-		</div>
-        {% endfor %}
-		<a href='https://codeload.github.com/googlehosts/hosts/zip/master'>下载hosts<a/>
+</body>
+</html>
+-->
+<input type="hidden" id="static_path" value="https://img.client.10010.com/mobileService/view/client">
+<input type="hidden" id="ctx_path" value="/mobileService">
 
-	</div>
-	</body>
+
+
+
+
+
+
+
+
+   
+      
+   
+   
+
+
+
+    
+    
+
+<input type="hidden" id="static_path" value="https://img.client.10010.com/mobileService/view/client">
+</head>
+<style>
+.newmore{
+	padding-top:10px;
+}
+.newmore ul{
+	width: 100%;
+}
+.newmore ul li{
+	float: left;
+	width: 25%;
+	text-align: center;
+	padding-top: 10px;
+	height: 70px;
+}
+.iconcontainer{
+	height: 30px;
+}
+.onpoint{
+	background:#f2f2f2;
+}
+.newmore ul li{ width:33%; padding-top:20px;}
+.iconcontainer{ height:auto;margin-bottom:5px}
+</style>
+
+<body>
+	<body style="background:#fff;">
+<div id="pageNew" data-role="page">
+<div id="pageNew_3">
+    <div id="tab_function" class="wid320">
+        <div class="body_font tab_con" style="padding-top: 7px; padding-right: 15px; padding-bottom: 7px; padding-left: 15px; ">
+            <div class="nopro">
+                <div><img src="https://img.client.10010.com/mobileService/view/client/images/nopro_new.png" height="100"></div>
+                <p class="prompt_text">
+                	
+						
+         					很抱歉，业务连接超时，请您稍候再试[4114030109]【ECS000000003】
+       					
+						
+						
+					
+                </p>
+                <div class="space_30"></div>
+            </div>
+        </div>	
+    </div>
+</div>	
+</div>
+		
+</body>
+
+<script>
+function querySubmit(month){
+	$('#resultDiv').html('<div class="new_con"><div class="new_con_txt"><div class="nopro"><div class="space_30"><center><img src="https://img.client.10010.com/mobileService/view/client/images/loading.gif" width="16">&nbsp&nbsp;</center><div class="space_30"</div></div></div>');	
+	var url = '/mobileService/query/queryRealFeeHistroyDetail.htm?desmobile=&version=android@6.002';
+	var param = '&menuId=&month='+month;
+	$('#resultDiv').load(url + param+'&randm='+Math.random());
+}
+    
+    function clientDirectorCallBack(){
+        //alert(clientDirectorUrl);
+        if ( undefined == clientDirectorUrl ){
+            //alert(1);
+            return {"type" : "close", "url" : "" , "msg":"" };
+        }else{
+            //alert(2);
+            url(clientDirectorUrl);
+            return true;
+        }
+    }
+  
+</script>
 </html>

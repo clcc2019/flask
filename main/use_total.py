@@ -2,8 +2,7 @@ from main import re_json
 from decimal import Decimal
 import re
 def use():
-    '''
-    过滤定向包，统计所有可用流量
+    '''过滤定向包，统计所有可用流量
     :param self:
     :return: 可用通用流量
     '''

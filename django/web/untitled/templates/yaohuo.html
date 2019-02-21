@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
@@ -38,34 +38,8 @@
     </style>
 </head>
 <body>
-<div class="mdui-container" style="width: 100%;margin-top: 8%;">
-  <div class="mdui-row">
-    <div class="mdui-col-sm-6 mdui-col-md-4" style="width: 100%">
-      <div class="mdui-card" style="border-radius: 15px;">
-        <div class="mdui-card-media">
-          <img src="../static/img/query_card.jpg"/>
-          <div class="mdui-card-media-covered">
-            <div class="mdui-card-primary">
-              <div class="mdui-card-primary-title" style="font-weight: bold;font-size: 24px;">最新使用量</div>
-              <div class="mdui-card-primary-subtitle">
-			  </div>
-            </div>
-            <div class="mdui-card-actions">
-				{% if data %}
-              <button class="mdui-btn mdui-ripple mdui-ripple-white text">{{ data[0] }} MB</button>
-              <button class="mdui-btn mdui-ripple mdui-ripple-white text">{{ data[1] }} GB</button>
-				{% endif %}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<h2 style="margin-top: 5%;text-align: center;">王卡Token更新 </h2>
-<div class="panel">
-    <p style="text-align: center;font-weight: bold;">前方施工<br>403</p>
-</div>
+{% for li in data%}
+
 <div class="panel">
 <ul class="mdui-list mdui-list-dense" style="max-width: 100%;">
   <li class="mdui-list-item">
@@ -73,12 +47,13 @@
         <img src="../static/img/avatar1.jpg"/>
     </div>
     <div class="mdui-list-item-content" style="width: 100%">
-      <div class="mdui-list-item-title">Brunch this weekend?</div>
+      <div class="mdui-list-item-title">{{ li['标题']}}</div>
       <div style="width: 100%" class="mdui-list-item-text mdui-list-item-two-line">
-          <span class="mdui-text-color-black">All Connors</span> - I'll be in your neighborhood doing errands this weekend. Do you want ...</div>
+          <span class="mdui-text-color-black">{{ li['作者']}}</span> - {{ li['内容'] }}</div>
     </div>
   </li>
-</ul></div>
-<script src="https://mdui-aliyun.cdn.w3cbus.com/source/dist/js/mdui.min.js"></script>
+</ul>
+</div>
+    {% endfor %}
 </body>
 </html>

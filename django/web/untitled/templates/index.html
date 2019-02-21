@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<title>联通流量查询</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/mdui/0.4.2/css/mdui.min.css">
+	  <scripst src="https://cdnjs.loli.net/ajax/libs/mdui/0.4.2/js/mdui.min.js"></scripst>
+    <style>
+        html{
+	        font-size: 62.5%;
+	        background-color: #fff;
+        }
+        .panel {
+            background: -webkit-linear-gradient(left, #930b1b, #c22f3d); /* Safari 5.1 - 6.0 */
+            background: -o-linear-gradient(right, #930b1b, #c22f3d); /* Opera 11.1 - 12.0 */
+            background: -moz-linear-gradient(right, #930b1b, #c22f3d); /* Firefox 3.6 - 15 */
+            color: #fff;
+            margin: 5px;
+            padding: 5px 5px;
+            margin-top: 3%;
+            border-radius: 15px;
+            font: normal 100% PingFangSC-Medium, sans-serif;
+            font-size: 1.4rem;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background: linear-gradient(to right, #930b1b, #c22f3d);
+        }
+        p{
+            font-size: 20px;
+            font-family:'Times New Roman', PingFangSC-Medium, serif
+        }
+        .text{
+            font-weight: bold;
+            font-size: 20px;
+            color: #930b1b;
+        }
+        a:link {
+          text-decoration:none;
+          color: 930b1b;
+        }    /* unvisited link */
+    </style>
+</head>
+<body>
+<div class="mdui-container" style="width: 100%;margin-top: 8%;">
+  <div class="mdui-card" style="border-radius: 15px;">
+    <div class="mdui-card-media"  style="width: 100%">
+      <img id='img_01' src="../static/img/bg10.jpg"/>
+      <div class="mdui-card-media-covered mdui-card-media-covered-gradient">
+        <div class="mdui-card-primary">
+            <div class="mdui-chip">
+                <span class="mdui-chip-icon mdui-color-blue"><i class="mdui-icon material-icons">face</i></span>
+                <span class="mdui-chip-title" style="color:#930b1b;" onclick="window.location.href = 'http://39.106.10.157/hs/'"> 最新数据 </span>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="mdui-card-actions">
+      <button class="mdui-btn mdui-ripple text">{{ data.use }}</button>
+      <button class="mdui-btn mdui-ripple text">{{ data.over }} GB</button>
+    </div>
+  </div>
+</div>
+
+</div>
+<h2 style="margin-top: 5%;text-align: center;">王卡Token更新 </h2>
+<div class="panel">
+    <h2 style="text-align: center;font-weight: bold;">前方施工<br></h2>
+</div>
+
+<div class="panel" style="text-align: center;" onclick="">
+        <h2>看帖子</h2>
+    </div>
+    <script type="text/javascript">
+          var bodyBgs = [];
+          bodyBgs[0] = "../static/img/bg8.jpg";
+          bodyBgs[1] = "../static/img/bg13.jpg";
+          bodyBgs[14] = "https://i.meizitu.net/2019/01/13b01.jpg";
+          bodyBgs[2] = "../static/img/bg2.jpg";
+          bodyBgs[3] = "../static/img/bg3.jpg";
+          bodyBgs[4] = "../static/img/bg4.jpg";
+          bodyBgs[5] = "../static/img/bg5.jpg";
+          bodyBgs[6] = "../static/img/bg6.jpg";
+          bodyBgs[7] = "../static/img/bg10.jpg";
+          bodyBgs[8] = "../static/img/bg0.jpg";
+          bodyBgs[15] = "https://i.meizitu.net/2013/07/54665235gw1dwave4wzh6j.jpg";
+          bodyBgs[9] = "../static/img/bg9.jpg";
+          bodyBgs[10] = "../static/img/bg7.jpg";
+          bodyBgs[11] = "../static/img/bg11.jpg";
+          bodyBgs[12] = "../static/img/bg12.jpg";
+          bodyBgs[13] = "../static/img/bg1.jpg";
+          
+          var randomBgIndex = Math.round( Math.random() * 12 );
+          document.getElementById("img_01").src=bodyBgs[randomBgIndex];
+      </script>
+      <script src="https://mdui-aliyun.cdn.w3cbus.com/source/dist/js/mdui.min.js"></script>
+</body>
+</html>

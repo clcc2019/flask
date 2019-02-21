@@ -20,12 +20,8 @@ def get():
         'activiChannel': 'null',
     }
     response = requests.post(url=url, cookies=cookies, headers=headers, data=data)
-    if response.status_code == 200: # 验证请求
-        html_data = response.text
-        response.encoding = 'utf-8'
-    else:
-        print('请检查Cookies')
-    # with open('query', 'w', encoding='utf-8') as f: # 测试写文件保存
-    #     f.write(response.text)
-
+    if response.status_code == 200: html_data = response.text
+    else: print('请检查Cookies')
+    filename = "/home/web/templates/history.html"
+    with open(filename, 'w', encoding='utf-8') as f: f.write(response.text) # 测试时写入文件
     return html_data

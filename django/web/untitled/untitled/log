@@ -1,0 +1,144 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Feb 18 19:21:46 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 31 January 2019 10:49:51
+os: Linux-4.20.4-1.el7.elrepo.x86_64 #1 SMP Tue Jan 22 18:39:11 EST 2019
+nodename: cc
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/web/django/web/untitled/untitled
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 7883
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8888 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan 13 2019, 18:54:12)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x1a16d20
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312864 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file untitled/wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3827)
+spawned uWSGI worker 1 (pid: 3828, cores: 4)
+spawned uWSGI worker 2 (pid: 3829, cores: 4)
+--- no python application found, check your startup logs for errors ---
+[pid: 3828|app: -1|req: -1/1] 119.4.250.169 () {42 vars in 708 bytes} [Mon Feb 18 19:23:39 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3829|app: -1|req: -1/2] 119.4.250.169 () {44 vars in 708 bytes} [Mon Feb 18 19:23:39 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3828|app: -1|req: -1/3] 119.4.250.169 () {42 vars in 708 bytes} [Mon Feb 18 19:23:41 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3829|app: -1|req: -1/4] 119.4.250.169 () {44 vars in 708 bytes} [Mon Feb 18 19:23:41 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3828|app: -1|req: -1/5] 119.4.250.169 () {40 vars in 687 bytes} [Mon Feb 18 19:23:46 2019] GET /query => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3829|app: -1|req: -1/6] 119.4.250.169 () {40 vars in 660 bytes} [Mon Feb 18 19:23:46 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3828|app: -1|req: -1/7] 119.4.250.169 () {40 vars in 677 bytes} [Mon Feb 18 19:23:49 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3829|app: -1|req: -1/8] 119.4.250.169 () {40 vars in 655 bytes} [Mon Feb 18 19:23:50 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3828|app: -1|req: -1/9] 119.4.250.169 () {42 vars in 708 bytes} [Mon Feb 18 19:24:02 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3829|app: -1|req: -1/10] 119.4.250.169 () {44 vars in 708 bytes} [Mon Feb 18 19:24:02 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3828|app: -1|req: -1/11] 119.4.250.169 () {42 vars in 708 bytes} [Mon Feb 18 19:24:26 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3829|app: -1|req: -1/12] 119.4.250.169 () {44 vars in 708 bytes} [Mon Feb 18 19:24:26 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3828|app: -1|req: -1/13] 95.213.177.124 () {40 vars in 694 bytes} [Mon Feb 18 19:25:46 2019] POST /azenv.php?auth=155048914559&a=PSCN&i=661260957&p=80 => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3828|app: -1|req: -1/14] 180.249.203.78 () {32 vars in 451 bytes} [Mon Feb 18 19:26:55 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3828|app: -1|req: -1/15] 47.110.70.6 () {36 vars in 571 bytes} [Mon Feb 18 19:32:47 2019] HEAD / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Feb 18 19:35:37 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 31 January 2019 10:49:51
+os: Linux-4.20.4-1.el7.elrepo.x86_64 #1 SMP Tue Jan 22 18:39:11 EST 2019
+nodename: cc
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/web/django/web/untitled/untitled
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 7883
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8888).
+bind(): Address already in use [core/socket.c line 769]
+--- no python application found, check your startup logs for errors ---
+[pid: 3828|app: -1|req: -1/16] 119.4.250.169 () {40 vars in 677 bytes} [Mon Feb 18 19:35:51 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3829|app: -1|req: -1/17] 119.4.250.169 () {40 vars in 655 bytes} [Mon Feb 18 19:35:51 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3828|app: -1|req: -1/18] 119.4.250.169 () {42 vars in 708 bytes} [Mon Feb 18 19:37:26 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3829|app: -1|req: -1/19] 119.4.250.169 () {44 vars in 708 bytes} [Mon Feb 18 19:37:26 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3828|app: -1|req: -1/20] 119.4.250.169 () {42 vars in 708 bytes} [Mon Feb 18 19:37:31 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3829|app: -1|req: -1/21] 119.4.250.169 () {40 vars in 655 bytes} [Mon Feb 18 19:37:31 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3828|app: -1|req: -1/22] 119.4.250.169 () {42 vars in 708 bytes} [Mon Feb 18 19:37:43 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3829|app: -1|req: -1/23] 119.4.250.169 () {44 vars in 708 bytes} [Mon Feb 18 19:37:43 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3828|app: -1|req: -1/24] 119.4.250.169 () {42 vars in 708 bytes} [Mon Feb 18 19:38:04 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3829|app: -1|req: -1/25] 119.4.250.169 () {40 vars in 655 bytes} [Mon Feb 18 19:38:04 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3828|app: -1|req: -1/26] 119.4.250.169 () {40 vars in 655 bytes} [Mon Feb 18 19:38:12 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3828|app: -1|req: -1/27] 119.4.250.169 () {40 vars in 677 bytes} [Mon Feb 18 19:47:04 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3829|app: -1|req: -1/28] 119.4.250.169 () {40 vars in 655 bytes} [Mon Feb 18 19:47:04 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3828|app: -1|req: -1/29] 119.4.250.169 () {42 vars in 708 bytes} [Mon Feb 18 19:48:31 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3829|app: -1|req: -1/30] 119.4.250.169 () {44 vars in 708 bytes} [Mon Feb 18 19:48:32 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3828|app: -1|req: -1/31] 119.4.250.169 () {42 vars in 708 bytes} [Mon Feb 18 19:50:12 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3829|app: -1|req: -1/32] 119.4.250.169 () {44 vars in 708 bytes} [Mon Feb 18 19:50:13 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3828|app: -1|req: -1/33] 119.4.250.169 () {42 vars in 708 bytes} [Mon Feb 18 19:51:16 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3829|app: -1|req: -1/34] 119.4.250.169 () {44 vars in 708 bytes} [Mon Feb 18 19:51:16 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3828|app: -1|req: -1/35] 119.4.250.169 () {42 vars in 708 bytes} [Mon Feb 18 19:51:21 2019] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 3829|app: -1|req: -1/36] 119.4.250.169 () {40 vars in 655 bytes} [Mon Feb 18 19:51:21 2019] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+DAMN ! worker 1 (pid: 3828) died :( trying respawn ...
+Respawned uWSGI worker 1 (new pid: 3969)
+DAMN ! worker 2 (pid: 3829) died :( trying respawn ...
+Respawned uWSGI worker 2 (new pid: 3970)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/web/django/web/untitled/untitled
+closing all non-uwsgi socket fds > 2 (max_fd = 65535)...
+found fd 3 mapped to socket 0 (127.0.0.1:8888)
+running /usr/local/python3/bin/uwsgi
+realpath() of uwsgi.ini failed: No such file or directory [core/utils.c line 3651]
